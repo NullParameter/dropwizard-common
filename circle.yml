@@ -5,7 +5,7 @@ machine:
   environment:
     TERM: dumb
     JAVA_OPTS: -Djava.awt.headless=true -server -Xmx1G
-    GRADLE_OPTS: '-Xmx256M -Dorg.gradle.daemon=false -Dorg.gradle.jvmargs="-Xmx256M -XX:+HeapDumpOnOutOfMemoryError"'
+    GRADLE_OPTS: '-Xmx256M -Dorg.gradle.daemon=true -Dorg.gradle.jvmargs="-Xmx256M -XX:+HeapDumpOnOutOfMemoryError"'
 
 dependencies:
   override:
